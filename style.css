@@ -1,0 +1,175 @@
+/* resetting the rules  */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #f0e2c5;
+}
+header {
+  text-align: center;
+  padding: 50px 0;
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header h1 {
+  font-family: "Playfair Display SC", serif;
+  font-size: 3rem;
+  color: #49281a;
+  margin-bottom: 20px;
+}
+
+header p {
+  font-family: "lato", sans-serif;
+  color: #49281a;
+}
+
+header a {
+  font-family: "Lato", sans-serif;
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #49281a;
+  color: #f0e2c5;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  margin: 20px auto 0 auto;
+}
+nav {
+  text-align: center;
+
+  padding: 20px 0;
+}
+nav ul li {
+  display: inline-block;
+  font-family: "lato", sans-serif;
+  padding: 10px 20px;
+  border: 1px solid #000;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+nav ul li a {
+  color: #49281a;
+  text-decoration: none;
+}
+
+/* menu section  */
+
+#menu,
+#about-us,
+#contact,
+footer {
+  /* border: 1px solid #000; */
+  width: 80%;
+  margin: 20px auto;
+}
+#menu h2,
+#about-us h2,
+#contact h2 {
+  font-family: "Playfair Display SC", serif;
+  color: #49281a;
+  margin-bottom: 20px;
+}
+#menu-list {
+  text-align: center;
+  margin-top: 20px;
+}
+#menu div h3 {
+  font-family: "Playfair Display SC", serif;
+  color: #49281a;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.card {
+  border: 1px solid #000;
+  width: 240px;
+  padding: 10px;
+  margin: 20px auto;
+  border-radius: 5px;
+  font-family: "lato", sans-serif;
+  color: #49281a;
+  display: inline-block;
+}
+
+.card-img-top {
+  max-width: 100%;
+  border-radius: 5px 5px 0px 0px;
+}
+.card-body {
+  text-align: center;
+}
+.card-title {
+  padding: 10px 0;
+}
+.card-text {
+  line-height: 1.5rem;
+  margin: 10px 0;
+}
+.card-btn {
+  background-color: #49281a;
+  color: #f0e2c5;
+  border: none;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 0px 0px 5px 5px;
+}
+
+#about-us p,
+#contact p {
+  font-family: "lato", serif;
+  padding: 5px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+/* contact-us  */
+form {
+  font-family: "lato", sans-serif;
+  margin-top: 10px;
+}
+form div {
+  margin-bottom: 20px;
+}
+.form-label {
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+  margin-right: 10px;
+}
+.form-control {
+  width: 300px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #000;
+  background-color: #f0e2c5;
+}
+#btn-submit {
+  margin-left: 160px;
+  width: 200px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #49281a;
+  color: #f0e2c5;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+/* footer  */
+footer {
+  text-align: center;
+  font-family: "lato", sans-serif;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
