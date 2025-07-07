@@ -47,19 +47,21 @@ header a {
 }
 nav {
   text-align: center;
-
   padding: 20px 0;
+  background-color: #49281a;
+  position: sticky;
+  top: 0px;
 }
 nav ul li {
   display: inline-block;
   font-family: "lato", sans-serif;
   padding: 10px 20px;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   margin-right: 10px;
   border-radius: 5px;
 }
 nav ul li a {
-  color: #49281a;
+  color: #f0e2c5;
   text-decoration: none;
 }
 
@@ -174,4 +176,11 @@ footer {
 
 footer p {
   font-size: 0.9rem;
+}
+
+footer a {
+  padding: 10px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
 }
