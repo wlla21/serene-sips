@@ -11,13 +11,16 @@ body {
   background-color: #f0e2c5;
 }
 header {
+  display: flex;
   text-align: center;
+  flex-direction: column;
+  justify-content: center;
   width: 100%;
   background-image: url(images/background.jpg);
   background-position: center;
   background-position: center;
   background-size: cover;
-  padding: 50px 0;
+  align-items: center;
   height: 100vh;
 }
 
@@ -94,11 +97,17 @@ footer {
   text-align: left;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+}
 .card {
   border: 1px solid #000;
   width: 240px;
   padding: 10px;
-  margin: 20px auto;
+  margin: 20px 5px;
   border-radius: 5px;
   font-family: "lato", sans-serif;
   color: #49281a;
